@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Prévia do site do Renato</title>
+<meta name="robots" content="noindex, nofollow"><link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head><body>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<style>
+/* Capa da prévia: coluna única curta, mesma paleta provisória do site */
+:root{--bg:#F3F6F7;--surface:#FFFFFF;--ink:#17242A;--muted:#4D5E66;--line:#D7E0E3;--primary:#123E46;--accent:#B8731E;--warn-bg:#FFF4E0;--warn-ink:#6B4300;
+--head:Georgia,"Times New Roman",serif;--body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1A1D;--surface:#152429;--ink:#E5EEF0;--muted:#9FB2B8;--line:#26383D;--primary:#7CC4CC;--accent:#E0A85A;--warn-bg:#3A2D12;--warn-ink:#F2C26B;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0E1A1D;--surface:#152429;--ink:#E5EEF0;--muted:#9FB2B8;--line:#26383D;--primary:#7CC4CC;--accent:#E0A85A;--warn-bg:#3A2D12;--warn-ink:#F2C26B;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:760px;margin:0 auto;padding-block:48px;display:flex;flex-direction:column;gap:28px}
+h1{font-family:var(--head);font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0;max-width:64ch}.muted{color:var(--muted)}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--accent)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;border-radius:999px;background:var(--primary);color:var(--bg);font-weight:650;text-decoration:none;align-self:flex-start}
+.btn:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.links a{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;color:var(--ink);text-decoration:none;font-weight:600}
+.links a span{display:block;font-weight:400;font-size:14px;color:var(--muted)}
+.aviso{background:var(--warn-bg);color:var(--warn-ink);border-radius:10px;padding:16px 18px;display:flex;flex-direction:column;gap:6px;font-size:15px}
+</style>
+<div class="wrap">
+  <span class="eyebrow">Prévia de trabalho · versão de 24/11/2026</span>
+  <h1>Site de aposentadoria especial e PPP</h1>
+  <p class="muted">Prévia navegável do site em construção: 94 páginas, com menu, rodapé e links internos funcionando. Esta não é a versão publicada.</p>
+  <a class="btn" href="inicio/index.html">Entrar no site</a>
+  <div class="aviso">
+    <strong>O que ainda é provisório</strong>
+    <span>Visual provisório (o design system oficial ainda vai ser aplicado). Imagens em cinza até a geração das definitivas. Trechos marcados com [PREENCHER] aguardam dados do escritório e [CONFIRMAR] aguardam a revisão jurídica do advogado. Formulários e WhatsApp ainda não enviam.</span>
+  </div>
+  <div>
+    <p class="eyebrow" style="margin-bottom:10px">Atalhos para as páginas modelo e principais</p>
+    <div class="links">
+      <a href="aposentadoria-especial/index.html">Guia da aposentadoria especial<span>Página modelo do pilar</span></a>
+      <a href="aposentadoria-especial/vigilante/index.html">Vigilante<span>Página modelo de profissão</span></a>
+      <a href="advogado-aposentadoria-especial/index.html">Advogado de aposentadoria especial<span>Página de serviço principal</span></a>
+      <a href="ppp/index.html">Guia do PPP<span>Hub do PPP do INSS</span></a>
+      <a href="decisoes/index.html">Decisões dos tribunais<span>Painel de andamento</span></a>
+      <a href="glossario/index.html">Glossário<span>Termos, leis e normas</span></a>
+    </div>
+  </div>
+</div>
+</body></html>
